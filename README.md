@@ -1,7 +1,8 @@
 # Project Writeup
-##### Yukun Jiang 
-###### yukunj@cs.cmu.edu
+#### Yukun Jiang 
+##### yukunj@cs.cmu.edu
 
+Current Deployment link: https://share.streamlit.io/yukunj/interactive-visualization-korean-covid/main/korean_covid.py
 
 ### Project Overview
 
@@ -32,12 +33,12 @@ we used `Streamlit` as the web deployment framework. There are actually quite a 
 This is a solo project. 
 First of all, we adopted the [dataset](https://www.kaggle.com/kimjihoo/coronavirusdataset) from Kaggle. It comprises of around 4000 infection cases in South Korean from Jan 2020 to June 2020. We believe it's of good quality as it has been published *in proceedings of NeurIPS 2020*, arguably one of the most influential conferences on the topic of Data Science.
 
-A great proportion of time was spent on exploratory data analysis and data cleaning. The code is always provided in the folder, named "Preprocessing.ipynb". Many data rows have missing values, either because the staff could not collect them, or due to privacy concerns. 
++ A great proportion of time was spent on exploratory data analysis and data cleaning. The code is always provided in the folder, named "Preprocessing.ipynb". Many data rows have missing values, either because the staff could not collect them, or due to privacy concerns. 
 
-For the spatial visualization, to use a mapping, we have to manually search and get the longitude and latitude of each province and city, which is quite time-consuming overall. 
++ For the spatial visualization, to use a mapping, we have to manually search and get the longitude and latitude of each province and city, which is quite time-consuming overall. 
 
-For the temporal visualization, we need to be able to manipulate the datetime object and do increment/decrement accordingly, and calculate the presum vectors of target statistics. 
++ For the temporal visualization, we need to be able to manipulate the datetime object and do increment/decrement accordingly, and calculate the presum vectors of target statistics. 
 
-For the Streamlit web application development, since it's the first time we use this framework, it took a while to get ourselves familiar with it and walked through a few demos to know the common APIs.
++ For the Streamlit web application development, since it's the first time we use this framework, it took a while to get ourselves familiar with it and walked through a few demos to know the common APIs.
 
 In total, we probably spent 11 hours in total on this assignment, 4 hours on exploratory data analysis and cleaning, 6 hours of learning the Streamlit and developing the web application and 1 hour for GitHub deployment.
